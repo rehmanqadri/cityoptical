@@ -257,71 +257,92 @@ section {
     flex-wrap: wrap;
 }
 
-.about .row .giro {
+.about .row .image {
     flex: 1 1 45rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about.row.content {
+    flex: 1 1 45rem;
+    padding: 2rem;
+}
+
+.about.row.content h3 {
+    font-size: 3rem;
+    color: #13131a;
+}
+
+.about.row.content p {
+    font-size: 1.6rem;
+    color: #13131a;
+    padding: 1rem 0;
+    line-height: 1.8;
 }
 
 /* .about .row .container reveal fade-left .giro{
     width: 300px;
     border-radius: 300px;
 } */
-.active.fade-left {
+/* .active.fade-left {
     animation: fade-left .8s ease-in;
 
 
-}
-.footer{
-    background:var(--black);
+} */
+.footer {
+    background: var(--black);
     text-align: center;
 }
 
-.footer .share{
-    padding:1rem 0;
+.footer .share {
+    padding: 1rem 0;
 }
 
-.footer .share a{
+.footer .share a {
     height: 5rem;
     width: 5rem;
     line-height: 5rem;
     font-size: 2rem;
-    color:#13131a;
-    border:var(--border);
-    margin:.3rem;
+    color: #13131a;
+    border: var(--border);
+    margin: .3rem;
     border-radius: 50%;
 }
 
-.footer .share a:hover{
+.footer .share a:hover {
     background-color: var(--main-color);
 }
 
-.footer .links{
+.footer .links {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding:2rem 0;
-    gap:1rem;
+    padding: 2rem 0;
+    gap: 1rem;
 }
 
-.footer .links a{
-    padding:.7rem 2rem;
-    color:#13131a;
-    border:var(--border);
+.footer .links a {
+    padding: .7rem 2rem;
+    color: #13131a;
+    border: var(--border);
     font-size: 2rem;
 }
 
-.footer .links a:hover{
-    background:var(--main-color);
+.footer .links a:hover {
+    background: var(--main-color);
 }
 
-.footer .credit{
+.footer .credit {
     font-size: 2rem;
-    color:#13131a;
+    color: #13131a;
     font-weight: lighter;
-    padding:1.5rem;
+    padding: 1.5rem;
 }
 
-.footer .credit span{
-    color:var(--main-color);
+.footer .credit span {
+    color: var(--main-color);
 }
 
 @keyframes fade-left {
@@ -600,6 +621,7 @@ section {
     margin-right: 100px;
     border-radius: 200px;
 }
+
 /* media queries  */
 
 @media (max-width: 900px) {}
